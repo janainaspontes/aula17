@@ -1,0 +1,36 @@
+@keyframes bola-de-futebol { 
+    from { 
+    margin-left: 0%; 
+    opacity: 0%; 
+    transform: rotate(0deg);
+} 
+    to { 
+    margin-left: 80%; 
+    opacity: 100%; 
+    transform: scale(2) rotate(360deg);  
+    } 
+} 
+.bola-de-futebol { 
+    height: 150px; 
+    width: 150px; 
+    animation: bola-de-futebol 4s infinite; 
+}
+
+.botao {
+   text-aligin:center;
+   margin-top: 200px; 
+}
+   
+.botao-lindao {
+    padding: 10px;
+    background-color: rgb(44, 50, 143);
+    color: #ffff
+}
+   
+.botao-lindao:hover {
+    color:rgb(196, 216, 21);
+    background-color: #000000;
+    transition-property: background-color, color;
+    transition-duration: 2s;
+
+}
